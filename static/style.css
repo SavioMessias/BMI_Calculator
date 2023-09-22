@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  } 
+  
+body {
+  font-family: "Muli", sans-serif;
+  background-color: rgb(92, 130, 233);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  border-radius: 15px;
+  height: 64vh;
+  width: 32vw;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+small {
+  font-size: 1em;
+  margin-bottom: 40px;
+}
+
+hr {
+  width: 28vw;
+  border: 1px solid rgb(92, 130, 233);
+  margin: 0 0 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0;
+  font-size: 1.5em;
+}
+
+input {
+  border-radius: 7px;
+  width: 28vw;
+  height: 4vh;
+  text-align: center;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+.info {
+  border: 1px solid rgb(92, 130, 233);
+}
+
+.info:focus {
+  outline: 2px solid rgb(92, 130, 233);;
+}
+
+.btn {
+  margin-top: 20px;
+  height: 4vh;
+  border: none;
+  background-color: rgb(92, 130, 233);
+  color: white;
+  cursor: pointer;
+}
+
+/* style of resultado */
+
+.resultado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resultado h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(92, 130, 233);
+  border-radius: 7px;
+  color: aliceblue;
+  height: 60px;
+  width: 320px;
+}
+
+.resultado h3 {
+  margin: 20px 0;
+}
+
+li {
+  margin: 0 0 8px;
+}
+
+li:last-of-type {
+  margin: 0;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  position: absolute;
+  bottom: 0.5vh;
+  right: 0.5vw;
+  width: 120px;
+  height: 120px;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+}
